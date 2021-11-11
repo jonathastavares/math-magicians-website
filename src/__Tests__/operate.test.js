@@ -32,7 +32,7 @@ describe('Testing operate', () => {
   test('testing fail operation', () => {
     const operation = '/';
     expect(() => operate(one, two, operation)).toThrow(
-      `Unknown operation '${operation}'`
+      `Unknown operation '${operation}'`,
     );
   });
 });
