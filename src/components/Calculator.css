@@ -1,0 +1,60 @@
+.calculator {
+  display: grid;
+}
+
+button {
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  padding: 10px;
+  border-color: #bdbdbd;
+}
+
+.quote {
+  background-color: gray;
+  color: white;
+  height: 50px;
+  text-align: right;
+  border-style: unset;
+  font-size: 30px;
+}
+
+.quote::placeholder {
+  color: white;
+}
+
+.number {
+  background-color: #e0e0e0;
+}
+
+.number:hover {
+  background-color: #b8b8b8;
+}
+
+.number-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.operation-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.operation {
+  background-color: orange;
+}
+
+.operation:hover {
+  background-color: rgb(211, 137, 0);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 75% auto;
+}
+
+.orange {
+  color: orange;
+  text-decoration-color: black !important;
+}
