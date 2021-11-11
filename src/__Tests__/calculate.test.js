@@ -1,7 +1,7 @@
 import calculate from '../logic/calculate';
 
 describe('Tests for buttons in calculate logic', () => {
-  var operations = {
+  const operations = {
     total: 0,
     next: null,
     operation: null,
