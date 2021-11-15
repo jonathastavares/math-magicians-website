@@ -108,8 +108,9 @@ dist
 /node_modules
 /.pnp
 .pnp.js
-/.eslintrc.json
-/.babelrc
+.eslintrc.json
+.babelrc
+.stylelintrc.json
 # testing
 /coverage
 
