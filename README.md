@@ -37,6 +37,7 @@ In your terminal, enter a git clone and past the link that you copied from the r
 
 You can test this app via:
 - [Heroku](https://math-magicians-website.herokuapp.com/)
+- [Netlify](https://clever-hermann-ddb998.netlify.app/)
 
 
 ## Authors
